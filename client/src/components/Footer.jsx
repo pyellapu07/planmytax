@@ -70,16 +70,16 @@ const Footer = () => {
           <a href="https://www.facebook.com/profile.php?id=61576193882317&rdid=uG6IbD5QsjEBWM72&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BsyPQqshr%2F" target="_blank" rel="noopener noreferrer">
             <FaFacebookF />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/planmytaxconsulting/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaXTwitter />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/planmytaxconsulting/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
           </a>
           <a href="https://www.instagram.com/planmytaxconsulting/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/planmytaxconsulting/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaYoutube />
           </a>
         </div>
