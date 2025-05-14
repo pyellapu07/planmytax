@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
-const servicesList = ["Trademark", "Company Reg.", "GST", "Import/Export", "FSSAI", "ISO", "Others"];
+const servicesList = ["GST", "Income Tax", "Trademark", "Company Reg.", "Import/Export", "FSSAI", "ISO", "Others"];
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     services: [],
     message: "",
   });
@@ -37,7 +38,7 @@ const ContactForm = () => {
     });
 
     alert("Form submitted!");
-    setFormData({ name: "", email: "", services: [], message: "" });
+    setFormData({ name: "", email: "", phone: "", services: [], message: "" });
   };
 
   return (
@@ -62,6 +63,7 @@ const ContactForm = () => {
               placeholder="Your Name"
             />
           </div>
+
           <div>
             <label className="block font-semibold">Email</label>
             <input
@@ -75,7 +77,19 @@ const ContactForm = () => {
             />
           </div>
 
-          {/* Pills Section placed below Email */}
+          <div>
+            <label className="block font-semibold">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              className="w-full border rounded-md px-4 py-2 mt-1"
+              value={formData.phone}
+              onChange={handleChange}
+              required
+              placeholder="Enter your phone number"
+            />
+          </div>
+
           <div>
             <label className="block font-semibold mb-1">Service Type</label>
             <div className="flex flex-wrap gap-4">
@@ -108,6 +122,7 @@ const ContactForm = () => {
               placeholder="How can we help you?"
             />
           </div>
+
           <div className="text-center">
             <button
               type="submit"

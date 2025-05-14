@@ -138,11 +138,6 @@ const GSTPage = () => {
               </ol>
             </div>
 
-            <p className="text-gray-700">
-              <strong className="text-blue-800">Estimated Time:</strong> 3–7 days <br />
-              <strong className="text-blue-800">Cost:</strong> ₹1,000–₹5,000
-            </p>
-
             <a
               href="/contact"
               className="inline-block bg-primary text-white px-6 py-2 rounded-full hover:bg-blue-800 transition"

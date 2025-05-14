@@ -70,12 +70,7 @@ const Trademark = () => {
                 </p>
               </div>
 
-              <div>
-                <p className="text-gray-700">
-                  <strong className="text-blue-800">Estimated Time:</strong> 6–18 months <br />
-                  <strong className="text-blue-800">Cost:</strong> ₹4,500+
-                </p>
-              </div>
+
 
               <div>
                 <h2 className="text-2xl font-bold text-blue-800 mb-2">Who Can Obtain a Trademark?</h2>
@@ -98,9 +93,7 @@ const Trademark = () => {
 
               <div className="md:col-span-2 text-sm text-gray-700">
                 <p className="font-semibold text-black mb-1">Avail 50% discount on Trademark Registration</p>
-                <p>
-                  For trademark registration, you need to pay Rs. 9000/- as Government fees. But if you own a MSME/SSI/Udyog Aadhar certificate, this Government fee is reduced to 50%.
-                </p>
+
               </div>
             </div>
           </div>

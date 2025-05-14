@@ -50,51 +50,47 @@ const detailedCards = [
 const Home = () => {
   return (
     <div className="min-h-screen text-white">
-      {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-900 via-indigo-700 to-blue-600 bg-size-400 animate-gradient min-h-screen">
-        <Navbar />
-        <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center justify-between gap-16 min-h-[calc(100vh-5rem)]">
-          {/* Left Hero Text */}
-          <div className="flex-1 text-left">
-            <h1 className="text-6xl font-extrabold leading-tight mb-6">
-              Legal. <br /> Compliant. <br /> Stress-Free.
-            </h1>
-            <button className="border border-white px-6 py-2 rounded-full font-medium mb-6 hover:bg-white hover:text-primary transition">
-              B2B Services
-            </button>
-            <p className="text-blue-100 text-xl max-w-md leading-relaxed mb-8">
-              Helping individuals and businesses get legally registered, tax-compliant, and future-ready.
-            </p>
-            <div className="flex gap-10">
-              <div className="text-left">
-                <p className="text-sm text-blue-100">Up to</p>
-                <p className="text-3xl font-bold text-white">10%</p>
-                <p className="text-sm text-blue-100">Discount on Services</p>
-              </div>
-              <div className="text-left">
-                <p className="text-sm text-blue-100">Up to</p>
-                <p className="text-3xl font-bold text-white">14%</p>
-                <p className="text-sm text-blue-100">Growth in Efficiency</p>
-              </div>
-            </div>
-          </div>
+{/* Hero Section */}
+<div className="relative bg-gradient-to-r from-blue-900 via-indigo-700 to-blue-600 bg-size-400 animate-gradient">
+  <Navbar />
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 min-h-[80vh] text-center lg:text-left">
 
-          {/* Right Hero Image */}
-{/* Right Hero Image */}
-<div className="flex-1 flex justify-center items-center">
-  <div className="relative flex-1 flex justify-center items-center">
-    <div className="absolute -bottom-[570px] z-10">
+    
+    {/* Left Text */}
+    <div className="flex-1 text-center lg:text-left mx-auto">
+      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+        Legal. <br /> Compliant. <br /> Stress-Free.
+      </h1>
+      <button className="border border-white px-6 py-2 rounded-full font-medium mb-6 hover:bg-white hover:text-primary transition mx-auto lg:mx-0">
+        B2B Services
+      </button>
+      <p className="text-blue-100 text-lg sm:text-xl max-w-md leading-relaxed mb-6">
+        Helping individuals and businesses get legally registered, tax-compliant, and future-ready.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center sm:items-start">
+        <div className="text-left">
+          <p className="text-sm text-blue-100">Up to</p>
+          <p className="text-2xl font-bold text-white">10%</p>
+          <p className="text-sm text-blue-100">Discount on Services</p>
+        </div>
+        <div className="text-left">
+          <p className="text-sm text-blue-100">Up to</p>
+          <p className="text-2xl font-bold text-white">14%</p>
+          <p className="text-sm text-blue-100">Growth in Efficiency</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Right Image */}
+    <div className="flex-1 flex justify-center items-center">
       <img
         src={heroImage}
         alt="Hero Visual"
-        className="w-full min-w-[750px] object-contain drop-shadow-2xl"
+        className="mx-auto w-72 sm:w-96 md:w-[450px] lg:w-[600px] xl:w-[750px] max-w-[550px] h-auto object-contain drop-shadow-2xl"
       />
     </div>
   </div>
 </div>
-
-        </div>
-      </div>
 
       {/* Services Grid */}
       <section className="bg-white text-primary py-20 px-6">

@@ -56,7 +56,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="font-bold text-xl mb-2">PlanMyTax</div>
         <p className="text-sm font-medium mb-6">
-          Online Legal India is a part of PlanMyTax Legal Services Pvt Ltd. Registered under the Companies Act, 2013.
+          Accurate. Reliable. Timely
         </p>
 
         {/* Disclaimer */}
@@ -65,15 +65,26 @@ const Footer = () => {
           to gather business info and assist. We may outsource certain services and are in the process of rebranding.
         </p>
 
-        {/* Social + Store */}
+        {/* Social Icons with Links */}
         <div className="flex justify-center items-center gap-4 mb-4 text-lg">
-          <FaFacebookF />
-          <FaXTwitter />
-          <FaLinkedinIn />
-          <FaInstagram />
-          <FaYoutube />
+          <a href="https://www.facebook.com/profile.php?id=61576193882317&rdid=uG6IbD5QsjEBWM72&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BsyPQqshr%2F" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaXTwitter />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+          </a>
+          <a href="https://www.instagram.com/planmytaxconsulting/?hl=en" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaYoutube />
+          </a>
         </div>
 
+        {/* App Store Icons */}
         <div className="flex justify-center items-center gap-4 mt-4">
           <img src="/assets/google-play.svg" alt="Google Play" className="h-10" />
           <img src="/assets/app-store.svg" alt="App Store" className="h-10" />
