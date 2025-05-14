@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/planmytax/static/css/main.c6112efe.css",
+    "main.js": "/planmytax/static/js/main.c3527b1c.js",
+    "static/js/453.419a5d54.chunk.js": "/planmytax/static/js/453.419a5d54.chunk.js",
+    "static/media/hero section image.png": "/planmytax/static/media/hero section image.65a90d3285441856b729.png",
+    "static/media/gsthero.png": "/planmytax/static/media/gsthero.8252962f69c6777b246c.png",
+    "static/media/gst-registration.png": "/planmytax/static/media/gst-registration.58196c7f8df0b863f20f.png",
+    "static/media/trademarkheader.jpg": "/planmytax/static/media/trademarkheader.f5ba539bd4725bbb179f.jpg",
+    "static/media/client2.png": "/planmytax/static/media/client2.8117371c69d9d281f966.png",
+    "static/media/google-icon.png": "/planmytax/static/media/google-icon.0616302353babd48b2cc.png",
+    "static/media/client1.png": "/planmytax/static/media/client1.6ce092c77994cd73485d.png",
+    "static/media/Apple-Logo.png": "/planmytax/static/media/Apple-Logo.8e6be479de48e2905118.png",
+    "index.html": "/planmytax/index.html",
+    "main.c6112efe.css.map": "/planmytax/static/css/main.c6112efe.css.map",
+    "main.c3527b1c.js.map": "/planmytax/static/js/main.c3527b1c.js.map",
+    "453.419a5d54.chunk.js.map": "/planmytax/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6112efe.css",
+    "static/js/main.c3527b1c.js"
+  ]
+}
