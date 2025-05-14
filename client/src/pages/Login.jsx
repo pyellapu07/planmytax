@@ -6,6 +6,8 @@ import planmytaxlogo from "../assets/Plan My Tax.png";
 import { auth, provider } from "../firebase";
 import { signInWithPopup, signInWithEmailAndPassword } from "firebase/auth";
 
+
+
 const Login = () => {
   const navigate = useNavigate();
 
@@ -102,7 +104,7 @@ const Login = () => {
 
           {/* Forgot password */}
           <div className="text-center text-sm mt-4">
-            <a href="#" className="text-blue-500 hover:underline">Forgot password?</a>
+            <a href="/services/gst" className="text-blue-500 hover:underline">Forgot password?</a>
           </div>
 
           {/* Sign up option */}
@@ -114,8 +116,8 @@ const Login = () => {
           {/* Footer */}
           <div className="text-center text-xs text-gray-400 mt-8">
             <span>© 2024 Orion</span> ·{' '}
-            <a href="#" className="hover:underline">Privacy Policy</a> ·{' '}
-            <a href="#" className="hover:underline">Support</a>
+            <a href="/services/gst" className="hover:underline">Privacy Policy</a> ·{' '}
+            <a href="/services/gst" className="hover:underline">Support</a>
           </div>
         </div>
       </div>

@@ -140,8 +140,8 @@ const SignUp = () => {
           </div>
 
           <div className="text-center text-xs text-gray-400 mt-8">
-            © 2024 PlanMyTax · <a href="#" className="hover:underline">Privacy Policy</a> ·{' '}
-            <a href="#" className="hover:underline">Support</a>
+            © 2024 PlanMyTax · <a href="/services/gst" className="hover:underline">Privacy Policy</a> ·{' '}
+            <a href="/services/gst" className="hover:underline">Support</a>
           </div>
         </div>
 

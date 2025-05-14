@@ -1,21 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import ServiceCard from "../components/ServiceCard";
+
 import DetailedServiceCard from "../components/DetailedServiceCard";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import heroImage from "../assets/hero section image.png";
 import { FaBalanceScale, FaBuilding, FaFileInvoice, FaGlobe, FaUtensils, FaAward } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
-const services = [
-  { title: "Trademark Registration", description: "Protect your brand name/logo/slogan by registering your trademark from anywhere in India." },
-  { title: "Company Registration", description: "Register any type of company including Pvt Ltd, LLP, OPC and update PAN, TAN & GST." },
-  { title: "GST Services", description: "Outsource GST filings and compliance with trusted legal experts at PlanMyTax." },
-  { title: "Import Export License", description: "Get your DGFT Import Export license online and kickstart your trade journey." },
-  { title: "FSSAI Registration", description: "Apply for food safety certificates and FSSAI license for your food business." },
-  { title: "ISO Registration", description: "Improve credibility by registering your business for ISO certification." },
-];
 
 const detailedCards = [
   {
@@ -40,19 +31,19 @@ const detailedCards = [
     icon: <FaGlobe />,
     title: "Import Export License",
     description: "Expand internationally by obtaining your IEC certificate in days.",
-    link: "#"
+    link: "/services/gst"
   },
   {
     icon: <FaUtensils />,
     title: "FSSAI Registration",
     description: "Get your food safety certificate and serve your customers with confidence.",
-    link: "#"
+    link: "/services/gst"
   },
   {
     icon: <FaAward />,
     title: "ISO Registration",
     description: "Show you're global-standard ready with ISO certification support.",
-    link: "#"
+    link: "/services/gst"
   }
 ];
 
